@@ -1,0 +1,205 @@
+body, html {
+    
+    height: 100%;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 50vh; /* Adjust height as needed */
+    overflow: hidden;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.banner h1 {
+    font-size: 3em;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.begginerContainer{
+    
+    display: flex;
+    margin-top: 10%;
+}
+
+.info-begginer-container{
+    background-color: #95AD95;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.info-advanced-container{
+    background-color: #150306;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.giff{
+    max-width: 90%;
+}
+
+.listado{
+    display: flex;
+    column-gap: 20%;
+}
+
+@media screen and (min-width: 650px) {
+    .listado{
+        font-size: 20px;
+    }
+  }
+@media screen and (min-width: 1050px) {
+    .listado{
+        font-size: 25px;
+    }
+  }
+
+button{
+    margin-bottom: 20px;
+}
+
+
+.info-button {
+    position: absolute;
+    top: 80%; /* Adjust as needed */
+    left: 50%; /* Adjust as needed */
+    transform: translate(-20%, -50%);
+    z-index: 2; /* Ensure the button is above the video */
+}
+
+.begginerContainer{
+    
+    display: flex;
+    margin-top: 10%;
+}
+
+.info-begginer-container{
+    background-color: #95AD95;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+@media screen and (max-width: 600px) {
+    .info-begginer-container{
+        padding-left: 2%;
+    padding-right: 2%;
+    
+    }
+    
+  }
+
+.info-advanced-container{
+    background-color: #6e3c48;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    max-width: 50%;
+}
+
+.giff{
+    max-width: 90%;
+}
+
+
+.containerReviews{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+
+}
+
+.valoracion{
+    width: 120px;
+}
+
+.review{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    align-items: center;
+    padding: 2%;
+}
+
+.perfil{
+    max-width: 90%;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border-radius: 15%;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+button:active{
+    opacity: 50%;
+}
+
+.boton-level{
+    margin-top: 5%;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
